@@ -3,19 +3,33 @@
   <h1>
     Welcome to {{ title }}!
   </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+  <img width="300" alt="Angular Logo" src="../assets/angular-asp-core.jpg">
 </div>
-<h2>Here are some links to help you start with: </h2>
+
+<h3>This is a sample project to demonstrate a SPA developed in Angular 7 and ASP.NET Core 2.1 Web API. Here are some links to help you start with</h3>
 <ul>
   <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+    To know about Angular 7, please visit <a target="_blank" rel="noopener" href="https://angular.io/">here</a>
   </li>
   <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+    To know about ASP.NET Core 2.1 Web API, please visit <a target="_blank" rel="noopener" href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.1">here</a>
   </li>
 </ul>
 
-<router-outlet></router-outlet>
+<h3>This sample will use following commands</h3>
+<ul>
+  <li>ng build - To build the angular content</li>
+  <li>ng build --prod - To build in Production mode</li>
+</ul>
+
+<h3>The CI build will contain</h3>
+<ul>
+  <li>NPM Task - Install the angular CLI</li>
+  <li>NPM Task - Install the node modules for the project</li>
+  <li>Command Line Task - Build the Angular App</li>
+  <li>.NET Core Tool Installer - Install the .NET CLI</li>
+  <li>Command Line Task - Publish the Web API</li>
+  <li>Azure App Service Manage - Stop the app deployed in Azure</li>
+  <li>Azure App Service Deploy - Deploy the app to Azure</li>
+  <li>Azure App Service Manage - Start the app deployed in Azure</li>
+</ul>
