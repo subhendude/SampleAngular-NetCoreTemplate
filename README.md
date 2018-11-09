@@ -1,4 +1,4 @@
-# # Sample Angular 7  + ASP.Net Core 2.1 Web API Project
+## Sample Angular 7  + ASP.Net Core 2.1 Web API Project
 
 This is a sample project to demonstrate a SPA developed in Angular 7 and ASP.NET Core 2.1 Web API.
 
@@ -71,19 +71,19 @@ https://www.microsoft.com/net/download/thank-you/dotnet-sdk-2.1.403-windows-x64-
 
 ## Deployment
 
-NPM Task - Install the angular CLI
-NPM Task - Install the node modules for the project
-Command Line Task - Build the Angular App
-.NET Core Tool Installer - Install the .NET CLI
-Command Line Task - Publish the Web API
-Azure App Service Manage - Stop the app deployed in Azure
-Azure App Service Deploy - Deploy the app to Azure
-Azure App Service Manage - Start the app deployed in Azure
+* NPM Task - Install the angular CLI
+* NPM Task - Install the node modules for the project
+* Command Line Task - Build the Angular App
+* .NET Core Tool Installer - Install the .NET CLI
+* Command Line Task - Publish the Web API
+* Azure App Service Manage - Stop the app deployed in Azure
+* Azure App Service Deploy - Deploy the app to Azure
+* Azure App Service Manage - Start the app deployed in Azure
 
 Add additional notes about how to deploy this on a live system
 
 ## Authors
 
-* **Subhendu De** - *Initial work* - [DotNet Artisan](dotnetartisan.in)
+* **Subhendu De** - *Initial work* - [DotNet Artisan](http://dotnetartisan.in/)
 
 See also the list of [contributors](https://github.com/subhendude/SampleAngular-NetCoreTemplate/contributors) who participated in this project.
