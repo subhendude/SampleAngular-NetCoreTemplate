@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 Clone the repository
 
 ```
-github clone https://github.com/subhendude/SampleAngular-NetCoreTemplate.git
+git clone https://github.com/subhendude/SampleAngular-NetCoreTemplate.git
 ```
 
 Go to SPA project directory in Powershell or bash shell
@@ -79,8 +79,6 @@ https://www.microsoft.com/net/download/thank-you/dotnet-sdk-2.1.403-windows-x64-
 * Azure App Service Manage - Stop the app deployed in Azure
 * Azure App Service Deploy - Deploy the app to Azure
 * Azure App Service Manage - Start the app deployed in Azure
-
-Add additional notes about how to deploy this on a live system
 
 ## Authors
 
